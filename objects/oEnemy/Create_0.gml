@@ -13,7 +13,7 @@ with(egun){
 	spawned = other.id;
 }
 
-show_debug_message(egun)
+//show_debug_message(egun)
 
 
 shadow = instance_create_layer(x,y,"shadow",oShadow)

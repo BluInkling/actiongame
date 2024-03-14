@@ -1,6 +1,31 @@
 global.player_x=x;
 global.player_y=y;
 
+if !global.freeze{
+
+if (knockbackforceX > 0)
+	knockbackforceX -= recover_speed;
+if (knockbackforceX < 0)
+	knockbackforceX += recover_speed;
+	
+if (knockbackforceY > 0)
+	knockbackforceY -= recover_speed;
+if (knockbackforceY < 0)
+	knockbackforceY += recover_speed;
+
+knockbackforceX = abs(knockbackforceX) * sign(knockbackforceX);
+knockbackforceY = abs(knockbackforceY) * sign(knockbackforceY);
+
+if (abs(knockbackforceX) <= 0.2){
+	knockbackforceX = 0	
+}
+
+if (abs(knockbackforceY) <= 0.2){
+	knockbackforceY = 0	
+}
+
+x += sign(knockbackforceX)
+y += sign(knockbackforceY)
 
 p =0 
 
@@ -62,6 +87,7 @@ if p == 0{
 	sprite_index = sPlayer
 } else sprite_index = sPlayermoving
 
+}
 
 
 

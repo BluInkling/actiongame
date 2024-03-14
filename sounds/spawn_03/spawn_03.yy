@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "spawn_03.wav",
   "type": 0,
-  "volume": 0.23,
+  "volume": 0.04,
 }

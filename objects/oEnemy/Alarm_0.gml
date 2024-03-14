@@ -7,7 +7,7 @@ var _y2 = y + lengthdir_y(60, image_angle - 0);
 	{
 		instance_create_layer(x,y,"Instances",oEShell)
 		audio_play_sound(spawn_03,1,false)
-		speed = 10;
+		speed = irandom_range(6,8);
 		direction = point_direction(x,y, oPlayer.x,oPlayer.y) + random_range(-3,3); //refers to the propertiy of the original object(the gun)
 		image_angle = direction;
 	}

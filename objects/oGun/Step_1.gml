@@ -1,3 +1,4 @@
+if !global.freeze{
 x = oPlayer.x;
 y = oPlayer.y + 10;
 
@@ -18,7 +19,7 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0){ //SHOOTING
 	
 	instance_create_layer(x,y,"Instances",oShell)
 	
-	firingdelay = 9;
+	firingdelay = global.firingspeed;
 	var _x2 = x + lengthdir_x(60, image_angle - 0);
 	var _y2 = y + lengthdir_y(60, image_angle - 0);
 	with (instance_create_layer(_x2, _y2,"Bullets",oBullet)) //whats in here happesn to THE CREATED BULLET
@@ -31,3 +32,4 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0){ //SHOOTING
 }
 
 
+}

@@ -19,5 +19,5 @@
   "sampleRate": 44100,
   "soundFile": "Modern_Day__Final_Wave__In_Game_Version____Plants_Vs_Zombies_2__Extension_.mp3",
   "type": 0,
-  "volume": 0.49,
+  "volume": 0.26,
 }
