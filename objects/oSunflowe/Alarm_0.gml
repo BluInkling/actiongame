@@ -1,7 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-var xtogo = x + irandom_range(-150,150);
+var xtogo = x + irandom_range(-160,160);
 var ytogo = y;
 
 show_debug_message(x)
@@ -39,6 +39,6 @@ with(instance_create_layer(x,y,"Instances",oSun))
 
 
 
-alarm[0] = irandom_range(50, 200)
+alarm[0] = irandom_range(180, 420)
 
 }

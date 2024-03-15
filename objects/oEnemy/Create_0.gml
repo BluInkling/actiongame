@@ -22,3 +22,19 @@ shadow = instance_create_layer(x,y,"shadow",oShadow)
 
 hsp = 0
 vsp = 0
+
+if room == 1{
+	sprite_index = zombiemodern
+	hp = 3;
+}
+
+if room == 3{
+	sprite_index = zombiejurrasic //juassisn
+	hp = 5;
+}
+
+
+if room == 4{ // west
+	sprite_index = zombiewest
+	hp = 4;
+}

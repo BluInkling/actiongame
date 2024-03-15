@@ -87,6 +87,12 @@ if p == 0{
 	sprite_index = sPlayer
 } else sprite_index = sPlayermoving
 
+
+if (mouse_check_button_pressed(mb_right) and bombammo >0){
+	instance_create_layer(x,y,"Bullets",oBomb)	
+	bombammo --;
+}
+
 }
 
 

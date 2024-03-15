@@ -24,9 +24,10 @@ if (mouse_check_button(mb_left)) && (firingdelay < 0){ //SHOOTING
 	var _y2 = y + lengthdir_y(60, image_angle - 0);
 	with (instance_create_layer(_x2, _y2,"Bullets",oBullet)) //whats in here happesn to THE CREATED BULLET
 	{
+		accuracy = global.accuracy
 		audio_play_sound(choose(peashoot,peashoot2),1,false)
 		speed = 20;
-		direction = other.image_angle + random_range(-5,5); //refers to the propertiy of the original object(the gun)
+		direction = other.image_angle + random_range((accuracy * -1),accuracy); //refers to the propertiy of the original object(the gun)
 		image_angle = direction;
 	}
 }

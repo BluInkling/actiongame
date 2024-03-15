@@ -13,7 +13,9 @@ var _hp= hp/Maxhp
 
 draw_sprite(shealth,0,0,0)
 draw_sprite_part(shealth,1,0,0,hpBarWidth * _hp,hpBarHeight,0,0)
+draw_text_transformed(0,0,string(hp) + "/" + string(Maxhp),.5,.5,0)
 
-draw_text(200,0,global.ability)
+
+draw_text_transformed(200,0,"Cherry bombs:" + string(bombammo),0.5,.5,0)
 
 

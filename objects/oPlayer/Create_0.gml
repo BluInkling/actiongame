@@ -20,6 +20,8 @@ p = 0
 hitfrom = 0
 flash = 0
 spd = global.curspeed
+sunheal = global.amnthealed
+bombammo = global.ability
 
 Maxhp= global.maxhealth
 hp = Maxhp
