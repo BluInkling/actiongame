@@ -28,6 +28,7 @@
     {"name":"Szengarden","order":19,"path":"sprites/Szengarden/Szengarden.yy",},
     {"name":"sEnemy","order":5,"path":"sprites/sEnemy/sEnemy.yy",},
     {"name":"FutureGroan7","order":3,"path":"sounds/FutureGroan7/FutureGroan7.yy",},
+    {"name":"credits","order":42,"path":"sprites/credits/credits.yy",},
     {"name":"oExplosion","order":31,"path":"objects/oExplosion/oExplosion.yy",},
     {"name":"zombiejurrasic","order":40,"path":"sprites/zombiejurrasic/zombiejurrasic.yy",},
     {"name":"DinoGroan2","order":2,"path":"sounds/DinoGroan2/DinoGroan2.yy",},

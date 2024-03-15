@@ -45,6 +45,7 @@
     {"id":{"name":"Szengarden","path":"sprites/Szengarden/Szengarden.yy",},},
     {"id":{"name":"sEnemy","path":"sprites/sEnemy/sEnemy.yy",},},
     {"id":{"name":"FutureGroan7","path":"sounds/FutureGroan7/FutureGroan7.yy",},},
+    {"id":{"name":"credits","path":"sprites/credits/credits.yy",},},
     {"id":{"name":"oExplosion","path":"objects/oExplosion/oExplosion.yy",},},
     {"id":{"name":"snut2","path":"sprites/snut2/snut2.yy",},},
     {"id":{"name":"zombiejurrasic","path":"sprites/zombiejurrasic/zombiejurrasic.yy",},},
